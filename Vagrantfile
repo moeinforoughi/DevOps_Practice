@@ -32,7 +32,6 @@ Vagrant.configure(2) do |config|
         v.memory = 1024
         v.cpus = 1
       end
-      type2_vm.vm.provision "shell", path: "bootstrap_t2.sh"
     end
   end
 end
